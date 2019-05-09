@@ -88,6 +88,10 @@
     "zuul": "3.10.1",
     "zuul-ngrok": "4.0.0"
   },
+  "peerDependencies": {
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  },
   "dependencies": {
     "auth0-js": "^9.10.2",
     "auth0-password-policies": "^1.0.2",
@@ -98,8 +102,6 @@
     "password-sheriff": "^1.1.0",
     "prop-types": "^15.6.0",
     "qs": "^6.7.0",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
     "react-transition-group": "^2.2.1",
     "trim": "0.0.1",
     "url-join": "^1.1.0"
