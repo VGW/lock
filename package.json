@@ -77,8 +77,6 @@
     "lint-staged": "^4.2.3",
     "mochify": "^6.3.0",
     "prettier": "^1.7.4",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
     "react-test-renderer": "^15.6.2",
     "semver": "^6.2.0",
     "sinon": "^1.15.4",
@@ -95,7 +93,10 @@
     "zuul": "3.10.1",
     "zuul-ngrok": "4.0.0"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
   "dependencies": {
     "auth0-js": "^9.11.2",
     "auth0-password-policies": "^1.0.2",

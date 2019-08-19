@@ -87,7 +87,7 @@ export default class Chrome extends React.Component {
     this.state = { moving: false, reverse: false };
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const { auxiliaryPane, showSubmitButton } = this.props;
     const { delayingShowSubmitButton } = this.state;
 
